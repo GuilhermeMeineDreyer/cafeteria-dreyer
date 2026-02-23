@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Dreyer Café</title>
+</head>
+
+<body>
+    <header class="header">
+        <section>
+            <a href="#" class="logo">
+                <img src="assets/logo.png" alt="Logo do Coffee´s Dreyer">
+            </a>
+
+            <nav class="navbar">
+                <a href="#about">Sobre</a>
+                <a href="#menu">Menu</a>
+                <a href="#review">Avaliações</a>
+                <a href="#address">Endereço</a>
+            </nav>
+
+            <div class="icons">
+                <img src="assets/cart.png" id="cartIcon" alt="imagem de um carrinho para simbolizar as compras">
+            </div>
+            
+        </section>
+    </header>
+
+    <div class="home-container">
+        <section id="home">
+            <div class="content">
+                <h3>CODE COM O MELHOR CAFÉ DA REGIÃO</h3>
+                <p>No Dreyer Café, cada xícara é feita para acompanhar suas ideias. Seja para começar o dia, fazer uma pausa ou codar por horas, nosso café artesanal entrega sabor, aroma e energia na medida certa.</p>
+                <a href="#menu" class="btn">Pegue o seu Agora</a>
+            </div>
+        </section>
+    </div>
+
+    <section class="about" id="about">
+        <h2 class="title">Sobre <span>Nós</span></h2>
+        <div class="row">
+            <div class="container-image">
+                <img src="assets/about-img.jpg" alt="sobre nós">
+            </div>
+            <div class="content">
+                <h3>O que faz nosso café especial</h3>
+                <p>Nosso café é selecionado diretamente de pequenos produtores e torrado para realçar o melhor de cada grão. Trabalhamos com métodos especiais que garantem uma bebida equilibrada, encorpada e cheia de personalidade.</p>
+                <p>Mais do que servir café, queremos criar experiências. Do aroma que te recebe na entrada ao primeiro gole que aquece o dia, tudo é pensado para transformar momentos simples em pausas memoráveis.</p>
+                <a href="#" class="btn">Saiba mais</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="menu" id="menu">
+        <h2 class="title">Nosso <span>Menu</span></h2>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="assets/menu-1.png" alt="menu 1">
+                <h3>Café coado</h3>
+                <div class="price">R$ 8,99 <span>R$ 12,99</span></div>
+                <button class="btn add-to-cart" data-name="Café Coado" data-price="8.99">Adicionar ao carrinho</button>
+            </div>
+
+                <div class="box">
+                    <img src="assets/menu-2.png" alt="menu 2">
+                    <h3>Espresso Intenso</h3>
+                    <div class="price">R$ 6,99 <span>R$ 9,99</span></div>
+                    <button class="btn add-to-cart" data-name="Espresso Intenso" data-price="6.99">Adicionar ao carrinho</button>
+                </div>
+
+                    <div class="box">
+                        <img src="assets/menu-3.png" alt="menu 3">
+                        <h3>Cappuccino Cremoso</h3>
+                        <div class="price">R$ 12,99 <span>R$ 16,99</span></div>
+                        <button class="btn add-to-cart" data-name="Cappuccino Cremoso" data-price="12.99">Adicionar ao carrinho</button>
+                    </div>
+
+                        <div class="box">
+                            <img src="assets/menu-4.png" alt="menu 4">
+                            <h3>Latte Artesanal</h3>
+                            <div class="price">R$ 13,99 <span>R$ 18,99</span></div>
+                            <button class="btn add-to-cart" data-name="Latte Artesanal" data-price="13.99">Adicionar ao carrinho</button>
+                        </div>
+
+                            <div class="box">
+                                <img src="assets/menu-5.png" alt="menu 5">
+                                <h3>Mocha Especial</h3>
+                                <div class="price">R$ 14,99 <span>R$ 19,99</span></div>
+                                <button class="btn add-to-cart" data-name="Mocha Especial" data-price="14.99">Adicionar ao carrinho</button>
+                            </div>
+
+                                <div class="box">
+                                    <img src="assets/menu-6.png" alt="menu 6">
+                                    <h3>Cold Brew</h3>
+                                    <div class="price">R$ 11,99 <span>R$ 15,99</span></div>
+                                    <button class="btn add-to-cart" data-name="Cold Brew" data-price="11.99">Adicionar ao carrinho</button>
+                                </div>
+            </div>
+    </section>
+
+    <section class="review" id="review">
+        <h2>NOSSOS <span>CLIENTES</span></h2>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="assets/quote-img.png" alt="comentario">
+                <p>O café é muito bom e o ambiente é ótimo para trabalhar ou conversar. Só achei que em horários mais cheios o atendimento pode demorar um pouco, mas no geral vale muito a pena.</p>
+                <img src="assets/pic-1.png" alt="foto cliente 1" class="user">
+                <h3>João da Silva</h3>
+                <div class="stars">
+                    <img src="assets/star.png" alt="">
+                    <img src="assets/star.png" alt="">
+                    <img src="assets/star.png" alt="">
+                    <img src="assets/star.png" alt="">
+                    <img src="assets/half-star.png" alt="">
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="assets/quote-img.png" alt="comentario">
+                <p>Gostei bastante do cappuccino e do clima do lugar. Achei os preços um pouco acima da média, mas a qualidade compensa. Com certeza voltaria.</p>
+                <img src="assets/pic-2.png" alt="foto cliente 2" class="user">
+                <h3>Maria Bittencourt</h3>
+                <div class="stars">
+                    <img src="assets/star.png" alt="">
+                    <img src="assets/star.png" alt="">
+                    <img src="assets/star.png" alt="">
+                    <img src="assets/star.png" alt="">
+                    <img src="assets/empty-star.png" alt="">
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="assets/quote-img.png" alt="comentario">
+                <p>Simplesmente perfeito. Café excelente, atendimento rápido e um ambiente muito aconchegante. Já virou meu lugar favorito para começar o dia.</p>
+                <img src="assets/pic-3.png" alt="foto cliente 3" class="user">
+                <h3>Pedro Silveira</h3>
+                <div class="stars">
+                    <img src="assets/star.png" alt="">
+                    <img src="assets/star.png" alt="">
+                    <img src="assets/star.png" alt="">
+                    <img src="assets/star.png" alt="">
+                    <img src="assets/star.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="address" id="address">
+        <h2 class="title">Nosso <span>endereço</span></h2>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3463.2445271413417!2d-51.14661062357353!3d-29.770570118631923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9519696f577a0725%3A0xb271fb4d9397106a!2sQuiero%20Caf%C3%A9!5e0!3m2!1spt-BR!2sbr!4v1771534590039!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section class="footer">
+        <div class="share">
+            <a href="https://www.instagram.com/guidreyer?igsh=enhndjlhc2NjMWc0&utm_source=qr" target="_blank">
+                <img src="assets/instagram.png" alt="logo do instagram para simbolizar o link para o perfil do instagram">
+            </a>
+            <a href="https://www.linkedin.com/in/guilherme-meine-dreyer-86b91a2b2?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank">
+                <img src="assets/linkedin.png" alt="logo do linkedin para simbolizar o link para o perfil do linkedin">
+            </a>
+            <a href="https://github.com/GuilhermeMeineDreyer" target="_blank">
+                <img src="assets/github.png" alt="logo do github para simbolizar o link para o perfil do github">
+            </a>
+        </div>
+    </section>
+
+    <div class="cart-panel" id="cartPanel">
+
+    <h2>Seu Carrinho</h2>
+
+    <div class="cart-items" id="cartItems">
+       
+    </div>
+
+    <div class="cart-total">
+        Total: R$ <span id="cartTotal">0.00</span>
+    </div>
+
+    <button class="btn finalize-btn">FINALIZAR COMPRA</button>
+
+</div>
+
+    <script src="script.js"></script>
+    <script src="cart-ui.js"></script>
+</body>
+</html>
