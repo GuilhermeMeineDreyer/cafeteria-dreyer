@@ -39,7 +39,6 @@ function renderCartUI(carrinho) {
 
     cartTotal.innerText = total.toFixed(2);
 
-    // 🔴 EVENTO DE REMOÇÃO
     document.querySelectorAll(".remove-item").forEach(botao => {
         botao.addEventListener("click", () => {
             const index = botao.dataset.index;
